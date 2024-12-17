@@ -3,19 +3,56 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	--background: #ffedd8;
+	--background-100: #ffedd8;
+	--background-200: #f3d5b5;
+	--background-300: #e7bc91;
+	--background-400: #d4a276;
+	--background-500: #bc8a5f;
+	--background-600: #a47148;
+	--background-700: #8b5e34;
+	--background-800: #6f4518;
+
+	/* --background: #fafae6;
+	--background-100: #fafae6;
+	--background-200: #f7f7e0;
+	--background-300: #f4f4da;
+	--background-400: #f0f0d2;
+	--background-500: #e6e6c2;
+	--background-600: #d9d9b0;
+	--background-700: #c6c699;
+	--background-800: #a9a97d; */
+
+	--foreground: #333333;
+	--foreground-100: #d8eaff;
+	--foreground-200: #404052;
+	--foreground-300: #33334a;
+	--foreground-400: #262642;
+	--foreground-500: #1a1a36;
+	--foreground-600: #14142d;
+	--foreground-700: #0e0e26;
+	--foreground-800: #0a0a23;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+	:root {
+		/* --background: #0a0a0a;
+    --foreground: #ededed; */
+		--background: #ffedd8; /* Beige */
+		--foreground: #333333; /* Dark Gray */
+	}
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+	color: var(--foreground);
+	background: var(--background);
+	font-family: "Montserrat", sans-serif;
+}
+
+.debug {
+	border: 1px solid red;
+}
+
+.nav-btn {
+	@apply text-gray-700 hover:text-gray-600 tracking-wide text-2xl font-mono p-2 hover:cursor-pointer active:scale-[0.98];
 }
