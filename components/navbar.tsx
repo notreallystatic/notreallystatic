@@ -11,13 +11,11 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="w-full top-0 left-0 border-b-2  border-b-background-500 mb-5">
-			<div className="container mx-auto flex justify-between items-center p-4">
-				<div className="text-gray text-lg font-bold">
-					<Link href="/">
-						<button className="nav-btn">Home</button>
-					</Link>
-				</div>
+		<nav className="w-full top-0 left-0 p-4 pb-0 fixed backdrop-blur-sm">
+			<div className="container mx-auto flex justify-between items-center border-b-2  border-b-background-500 ">
+				<Link href="/">
+					<button className="nav-btn">Home</button>
+				</Link>
 				<div className="md:hidden">
 					<button onClick={toggleMenu} className="text-gray focus:outline-none">
 						{isOpen ? (
@@ -36,20 +34,7 @@ const Navbar = () => {
 								></path>
 							</svg>
 						) : (
-							<svg
-								className="w-6 h-6"
-								fill="none"
-								stroke="currentColor"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									strokeLinecap="round"
-									strokeLinejoin="round"
-									strokeWidth="2"
-									d="M4 6h16M4 12h16m-7 6h7"
-								></path>
-							</svg>
+							<i className="fa-solid fa-bars">W</i>
 						)}
 					</button>
 				</div>
