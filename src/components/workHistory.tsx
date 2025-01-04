@@ -3,7 +3,7 @@ import { WorkCard } from "./workCard";
 
 export function WorkHistory() {
 	return (
-		<div className="debug col-span-12">
+		<div id="work" className="debug col-span-12 scroll-offset">
 			<div className="grid grid-cols-12">
 				<div className="debug col-span-1">
 					<div className="w-1 rounded-md bg-foreground-200 h-full md:left-3/4 relative"></div>

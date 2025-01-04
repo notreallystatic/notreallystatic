@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { WorkHistory } from "@/components/workHistory";
 
 export default function Home() {
@@ -86,76 +85,6 @@ export default function Home() {
 								fg-800
 							</div>
 						</div>
-						<Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link>
-						<Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link> <Link href="/blogs">Blogs</Link>
-						<br></br>
-						<Link href="/about">About us</Link>
 					</div>
 				</div>
 			</div>

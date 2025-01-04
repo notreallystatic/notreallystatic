@@ -47,7 +47,7 @@ const Navbar = () => {
 						<Link href="/about" className="nav-btn block md:inline-block">
 							About me
 						</Link>
-						<Link href="/work" className="nav-btn block md:inline-block">
+						<Link href="/#work" className="nav-btn block md:inline-block">
 							Work
 						</Link>
 						<Link href="/blogs" className="nav-btn block md:inline-block">

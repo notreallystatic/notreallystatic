@@ -43,6 +43,10 @@
 	}
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	color: var(--foreground);
 	/* background: var(--background); */
@@ -56,4 +60,8 @@ body {
 
 .nav-btn {
 	@apply text-gray-700 hover:text-gray-600 tracking-wide text-2xl font-mono p-2 hover:cursor-pointer active:scale-[0.98];
+}
+
+.scroll-offset {
+	scroll-margin-top: 4rem;
 }
