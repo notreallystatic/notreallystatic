@@ -27,6 +27,11 @@ export default function RootLayout({
 					crossOrigin="anonymous"
 				/>
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
+				<link
+					rel="stylesheet"
+					type="text/css"
+					href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+				/>
 			</head>
 			<body>
 				<main className={montserrat.className}>

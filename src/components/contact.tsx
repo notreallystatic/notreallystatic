@@ -1,7 +1,7 @@
 export default function Contact() {
 	return (
-		<div id="contact" className="col-span-12 scroll-offset my-3 p-5 ">
-			<h1 className="text-2xl font-bold text-center">Get in touch</h1>
+		<div id="contact" className="col-span-12 scroll-offset my-8 p-5 ">
+			<h1 className="text-5xl font-bold">Get in touch</h1>
 			<div className="w-full md:w-1/2 mx-auto">
 				<form
 					action="https://formspree.io/f/xeoopppj"

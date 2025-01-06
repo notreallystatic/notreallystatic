@@ -18,7 +18,6 @@ export function WorkCard({ jobObject }: { jobObject: Work }) {
 					{jobObject.role}
 				</span>
 			</p>
-			{/* TODO: Add icons for the tech-stack */}
 			<ul className="list-disc p-3">
 				{jobObject.description.map((desc, index) => (
 					<li key={index}>{desc}</li>

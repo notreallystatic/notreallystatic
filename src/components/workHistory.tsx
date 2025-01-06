@@ -1,4 +1,4 @@
-import { workHistoryInfoList } from "../constants";
+import { workHistoryInfoList, skillsIconsMap } from "../constants";
 
 export function WorkHistory() {
 	return (
@@ -9,7 +9,7 @@ export function WorkHistory() {
 					Here are some of the places I&apos;ve worked at
 				</p>
 			</div>
-			<div className="grid grid-flow-row mt-3 space-y-10">
+			<div className="grid grid-flow-row mt-3 space-y-14">
 				{workHistoryInfoList.map((jobObject, index) => (
 					<div
 						className={
@@ -20,8 +20,10 @@ export function WorkHistory() {
 					>
 						<p>
 							<span className="text-left w-2/4 inline-block text-3xl">
-								<a href={jobObject.url}>{jobObject.company}</a>
-								<hr className="w-1/2 bg-foreground-200 h-1" />
+								<a href={jobObject.url} className="text-4xl font-bold">
+									{jobObject.company}
+								</a>
+								<hr className="w-1/2 bg-foreground-800 h-1" />
 							</span>
 							<span className="text-right w-2/4 inline-block text-xl">
 								{" "}
@@ -33,15 +35,19 @@ export function WorkHistory() {
 								{jobObject.role}
 							</span>
 						</p>
-						{/* TODO: Add icons for the tech-stack */}
 						<ul className="list-disc p-3">
 							{jobObject.description.map((desc, index) => (
 								<li key={index}>{desc}</li>
 							))}
 						</ul>
-						<i className="text-sm opacity-80">
-							Stack: {jobObject.skills.join(", ")}
-						</i>
+						{jobObject.skills.map((skill, index) => (
+							<i
+								className={
+									"text-7xl p-3 opacity-80 my-2 " + skillsIconsMap[skill]
+								}
+								key={index}
+							/>
+						))}
 					</div>
 				))}
 			</div>

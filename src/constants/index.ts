@@ -1,5 +1,27 @@
 import { Work, SocialMedia } from "@/types";
 
+export const skillsIconsMap: Record<string, string> = {
+	nodejs: "devicon-nodejs-plain-wordmark colored",
+	express: "devicon-express-original-wordmark colored",
+	mongodb: "devicon-mongodb-plain-wordmark colored",
+	rabbitmq: "devicon-rabbitmq-line colored",
+	elasticsearch: "devicon-elasticsearch-plain-wordmark colored",
+	docker: "devicon-docker-plain-wordmark colored",
+	kubernetes: "devicon-kubernetes-plain-wordmark colored",
+	typescript: "devicon-typescript-plain colored",
+	javascript: "devicon-javascript-plain colored",
+	agile: "devicon-agile-plain colored",
+	postgres: "devicon-postgresql-plain-wordmark colored",
+	redis: "devicon-redis-plain-wordmark colored",
+	golang: "devicon-go-plain colored",
+	mysql: "devicon-mysql-plain-wordmark colored",
+	mqtt: "devicon-mqtt-plain-wordmark colored",
+	react: "devicon-react-original-wordmark colored",
+	html: "devicon-html5-plain-wordmark colored",
+	css: "devicon-css3-plain-wordmark colored",
+	redux: "devicon-redux-original colored",
+};
+
 export const workHistoryInfoList: Array<Work> = [
 	{
 		company: "Yellow AI",
@@ -15,18 +37,18 @@ export const workHistoryInfoList: Array<Work> = [
 			"Resolved multiple bugs and optimized various nodes while on on-call duty.",
 		],
 		skills: [
-			"Node.js",
-			"Express",
-			"MongoDB",
-			"RabbitMQ",
-			"Elasticsearch",
-			"Docker",
-			"Kubernetes",
-			"Typescript",
-			"Javascript",
-			"Agile",
-			"Postgres",
-			"Redis",
+			"nodejs",
+			"express",
+			"mongodb",
+			"rabbitmq",
+			"elasticsearch",
+			"docker",
+			"kubernetes",
+			"typescript",
+			"javascript",
+			"agile",
+			"postgres",
+			"redis",
 		],
 	},
 	{
@@ -40,7 +62,7 @@ export const workHistoryInfoList: Array<Work> = [
 			"Engineered a flexible system architecture for site-specific customization, including Fastag billing options and access control by vehicle type.",
 			"Created an API module to enable parking management via POS devices.",
 		],
-		skills: ["Golang", "Redis", "Docker", "MySQL", "MongoDB", "MQTT"],
+		skills: ["golang", "redis", "docker", "mysql", "mongodb", "mqtt"],
 	},
 	{
 		company: "Marktine",
@@ -51,7 +73,7 @@ export const workHistoryInfoList: Array<Work> = [
 			"Worked on React Js and with the team, transformed a web-app into a fully fledged react-app.",
 			"Create core components and pages for the app.",
 		],
-		skills: ["React", "Javascript", "HTML", "CSS", "Redux"],
+		skills: ["javascript", "html", "css", "react", "redux"],
 	},
 ];
 
