@@ -31,9 +31,7 @@ export default function RootLayout({
 			<body>
 				<main className={montserrat.className}>
 					<Navbar />
-					<div className="w-11/12 md:w-10/12 debug m-auto mt-20">
-						{children}
-					</div>
+					<div className="w-11/12 md:w-10/12 m-auto mt-20">{children}</div>
 				</main>
 			</body>
 		</html>

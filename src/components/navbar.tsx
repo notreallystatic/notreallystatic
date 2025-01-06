@@ -53,7 +53,7 @@ const Navbar = () => {
 						<Link href="/blogs" className="nav-btn block md:inline-block">
 							Blogs
 						</Link>
-						<Link href="/contact" className="nav-btn block md:inline-block">
+						<Link href="/#contact" className="nav-btn block md:inline-block">
 							Get in touch!
 						</Link>
 					</div>
@@ -65,13 +65,13 @@ const Navbar = () => {
 						<Link href="/about" className="nav-btn">
 							About me
 						</Link>
-						<Link href="/work" className="nav-btn">
+						<Link href="/#work" className="nav-btn">
 							My work timeline
 						</Link>
 						<Link href="/blogs" className="nav-btn">
 							Blogs
 						</Link>
-						<Link href="/contact" className="nav-btn">
+						<Link href="/#contact" className="nav-btn">
 							Contact me
 						</Link>
 					</div>

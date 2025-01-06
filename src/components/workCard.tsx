@@ -2,7 +2,7 @@ import { Work } from "../types";
 
 export function WorkCard({ jobObject }: { jobObject: Work }) {
 	return (
-		<div className="debug box-border shadow-md shadow-background-400 hover:shadow-background-600 rounded-md p-6">
+		<div className="box-border shadow-md shadow-background-400 hover:shadow-background-600 rounded-md my-1 p-6">
 			<p>
 				<span className="text-left w-2/4 inline-block text-3xl">
 					<a href={jobObject.url}>{jobObject.company}</a>
@@ -18,6 +18,7 @@ export function WorkCard({ jobObject }: { jobObject: Work }) {
 					{jobObject.role}
 				</span>
 			</p>
+			{/* TODO: Add icons for the tech-stack */}
 			<ul className="list-disc p-3">
 				{jobObject.description.map((desc, index) => (
 					<li key={index}>{desc}</li>

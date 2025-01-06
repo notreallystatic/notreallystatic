@@ -6,3 +6,9 @@ export type Work = {
 	description: string[];
 	skills: string[];
 };
+
+export type SocialMedia = {
+	name: string;
+	url: string;
+	icon: string;
+};

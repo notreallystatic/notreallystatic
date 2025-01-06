@@ -1,4 +1,4 @@
-import { Work } from "../types";
+import { Work, SocialMedia } from "@/types";
 
 export const workHistoryInfoList: Array<Work> = [
 	{
@@ -52,5 +52,28 @@ export const workHistoryInfoList: Array<Work> = [
 			"Create core components and pages for the app.",
 		],
 		skills: ["React", "Javascript", "HTML", "CSS", "Redux"],
+	},
+];
+
+export const socialMediaHandles: Array<SocialMedia> = [
+	{
+		name: "LinkedIn",
+		url: "https://www.linkedin.com/in/notreallystatic/",
+		icon: "fa-brands fa-linkedin",
+	},
+	{
+		name: "Github",
+		url: "https://github.com/notreallystatic",
+		icon: "fa-brands fa-github",
+	},
+	{
+		name: "Twitter",
+		url: "https://twitter.com/notreallystatic",
+		icon: "fa-brands fa-twitter",
+	},
+	{
+		name: "Strava",
+		url: "https://www.strava.com/athletes/notreallystatic",
+		icon: "fa-brands fa-strava",
 	},
 ];
