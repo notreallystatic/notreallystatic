@@ -1,39 +1,13 @@
 import { WorkHistory } from "@/components/workHistory";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
+import About from "@/components/about";
 
 export default function Home() {
 	return (
 		<>
 			<div className="grid grid-cols-12">
-				<div className="col-span-12">
-					<div className="grid grid-cols-12 my-0 md:my-20">
-						<div className="col-span-12 md:col-span-6 p-1 md:p-6 text-8xl text-center my-auto">
-							<p>Sachin</p>
-							<p>Kumar</p>
-							{/* <span className="text-8xl w-[100]">Sachin</span>
-							<br />
-							<span className="text-8xl">Kumar</span> */}
-						</div>
-						<div className="col-span-12 md:col-span-6 p-6 font-medium leading-6 text-justify">
-							<p className="m-1">👋 Hi,</p>
-							<p className="m-2">
-								{" "}
-								I’m a passionate developer(
-								<i>mostly backend, sometimes frontend</i>) with 3+ years of
-								experience specializing in the MERN stack and Golang. I love
-								building efficient systems, optimizing databases, and solving
-								complex problems. Currently, I’m expanding my skills in Data
-								Science and exploring the potential of Machine Learning and AI.
-							</p>
-							<p className="m-2">
-								When I’m not coding, you’ll find me running, watching birds, or
-								diving into a good book. Let’s connect and build something
-								amazing!
-							</p>
-						</div>
-					</div>
-				</div>
+				<About />
 				<WorkHistory />
 				<Contact />
 				{/* <div className="col-span-12">
