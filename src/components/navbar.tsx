@@ -20,21 +20,54 @@ const Navbar = () => {
 					<button onClick={toggleMenu} className="text-gray focus:outline-none">
 						{isOpen ? (
 							<svg
-								className="w-6 h-6"
-								fill="none"
-								stroke="currentColor"
+								width="24px"
+								height="24px"
+								strokeWidth="1.5"
 								viewBox="0 0 24 24"
+								fill="none"
 								xmlns="http://www.w3.org/2000/svg"
+								color="#000000"
 							>
 								<path
+									d="M6.75827 17.2426L12.0009 12M17.2435 6.75736L12.0009 12M12.0009 12L6.75827 6.75736M12.0009 12L17.2435 17.2426"
+									stroke="#000000"
+									strokeWidth="1.5"
 									strokeLinecap="round"
 									strokeLinejoin="round"
-									strokeWidth="2"
-									d="M6 18L18 6M6 6l12 12"
 								></path>
 							</svg>
 						) : (
-							<i className="fa-solid fa-bars">W</i>
+							<svg
+								width="24px"
+								height="24px"
+								strokeWidth="1.5"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+								color="#000000"
+							>
+								<path
+									d="M3 5H21"
+									stroke="#000000"
+									strokeWidth="1.5"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+								></path>
+								<path
+									d="M3 12H21"
+									stroke="#000000"
+									strokeWidth="1.5"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+								></path>
+								<path
+									d="M3 19H21"
+									stroke="#000000"
+									strokeWidth="1.5"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+								></path>
+							</svg>
 						)}
 					</button>
 				</div>
@@ -60,13 +93,13 @@ const Navbar = () => {
 				<div className="md:hidden">
 					<div className="flex flex-col items-center bg-background space-y-4 py-4">
 						<Link href="/#work" className="nav-btn">
-							My work timeline
+							Work
 						</Link>
 						<Link href="/blogs" className="nav-btn">
 							Blogs
 						</Link>
 						<Link href="/#contact" className="nav-btn">
-							Contact me
+							Get in touch!
 						</Link>
 					</div>
 				</div>
