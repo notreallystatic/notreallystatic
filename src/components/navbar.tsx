@@ -44,9 +44,6 @@ const Navbar = () => {
 							isOpen ? "block" : "hidden"
 						} md:block`}
 					>
-						<Link href="/about" className="nav-btn block md:inline-block">
-							About me
-						</Link>
 						<Link href="/#work" className="nav-btn block md:inline-block">
 							Work
 						</Link>
@@ -62,9 +59,6 @@ const Navbar = () => {
 			{isOpen && (
 				<div className="md:hidden">
 					<div className="flex flex-col items-center bg-background space-y-4 py-4">
-						<Link href="/about" className="nav-btn">
-							About me
-						</Link>
 						<Link href="/#work" className="nav-btn">
 							My work timeline
 						</Link>

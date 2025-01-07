@@ -24,7 +24,7 @@ export default function Footer() {
 					<i className="fas fa-envelope fa-2x" />
 				</a>
 			</div>
-			<div className="text-center font-mono font-thin text-foreground-700 p-2 ">
+			<div className="text-center font-mono font-thin text-foreground-700 p-2 my-4">
 				<p>© 2025 Sachin Kumar</p>
 			</div>
 		</footer>

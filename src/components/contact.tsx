@@ -1,8 +1,14 @@
 export default function Contact() {
 	return (
-		<div id="contact" className="col-span-12 scroll-offset my-8 p-5 ">
-			<h1 className="text-5xl font-bold">Get in touch</h1>
-			<div className="w-full md:w-1/2 mx-auto">
+		<div id="contact" className="col-span-12 scroll-offset mt-14 mb-6">
+			<h1 className="text-5xl font-bold font-mono">Get in touch</h1>
+			<p className="text-lg font-light py-2">
+				Thank you for visiting my portfolio! I&apos;d love to hear from you.
+				Whether you have a project idea, a job opportunity, or just want to
+				connect, feel free to reach out. Use the form below or drop me an email,
+				and I’ll get back to you as soon as possible!
+			</p>
+			<div className="w-full md:w-1/2 mx-auto ">
 				<form
 					action="https://formspree.io/f/xeoopppj"
 					method="POST"

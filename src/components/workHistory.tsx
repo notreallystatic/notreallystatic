@@ -14,18 +14,19 @@ export function WorkHistory() {
 					<div
 						className={
 							(index % 2 !== 1 ? "border-l-2" : "border-r-2") +
-							" border-background-500 px-4 my-3 mx-1"
+							" border-background-500 px-4 my-1 mx-1"
 						}
 						key={index}
 					>
 						<p>
-							<span className="text-left w-2/4 inline-block text-3xl">
+							<span className="text-left w-full md:w-2/4 inline-block text-3xl">
 								<a href={jobObject.url} className="text-4xl font-bold">
 									{jobObject.company}
 								</a>
 								<hr className="w-1/2 bg-foreground-800 h-1" />
 							</span>
-							<span className="text-right w-2/4 inline-block text-xl">
+							<br className="block md:hidden" />
+							<span className="text-left md:text-right w-full md:w-2/4 inline-block text-xl">
 								{" "}
 								{jobObject.time}
 							</span>
@@ -40,14 +41,17 @@ export function WorkHistory() {
 								<li key={index}>{desc}</li>
 							))}
 						</ul>
-						{jobObject.skills.map((skill, index) => (
-							<i
-								className={
-									"text-7xl p-3 opacity-80 my-2 " + skillsIconsMap[skill]
-								}
-								key={index}
-							/>
-						))}
+						<div className="flex flex-wrap justify-start">
+							{jobObject.skills.map((skill, index) => (
+								<i
+									className={
+										"text-5xl md:text-7xl p-3 opacity-80 my-2 inline-block " +
+										skillsIconsMap[skill]
+									}
+									key={index}
+								/>
+							))}
+						</div>
 					</div>
 				))}
 			</div>
