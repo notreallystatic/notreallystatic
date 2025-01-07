@@ -23,7 +23,7 @@ export function WorkHistory() {
 								<a href={jobObject.url} className="text-4xl font-bold">
 									{jobObject.company}
 								</a>
-								<hr className="w-1/2 bg-foreground-800 h-1" />
+								<span className="w-1/2 bg-foreground-800 h-[2px] block"></span>
 							</span>
 							<br className="block md:hidden" />
 							<span className="text-left md:text-right w-full md:w-2/4 inline-block text-xl">
