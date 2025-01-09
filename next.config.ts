@@ -8,8 +8,10 @@ const nextConfig: NextConfig = {
 	images: {
 		domains: ["images.unsplash.com"],
 	},
-	basePath: isProd ? "/notreallystatic" : "",
-	assetPrefix: isProd ? "/notreallystatic/" : "",
+	basePath: isProd ? "/prtfolio" : "",
+	assetPrefix: isProd ? "/portfolio/" : "",
+	output: "export",
+	reactStrictMode: true,
 };
 
 const withMDX = createMDX({
