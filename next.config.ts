@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
 	},
 	basePath: isProd ? "/portfolio" : "",
 	assetPrefix: isProd ? "/portfolio/" : "",
+	trailingSlash: true,
 	output: "export",
 	reactStrictMode: true,
 };
