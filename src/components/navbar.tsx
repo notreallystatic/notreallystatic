@@ -10,10 +10,14 @@ const Navbar = () => {
 		setIsOpen(!isOpen);
 	};
 
+	const closeNav = () => {
+		setIsOpen(false);
+	};
+
 	return (
 		<nav className="w-full top-0 left-0 p-4 pb-0 fixed backdrop-blur-sm">
 			<div className="container mx-auto flex justify-between items-center border-b-2  border-b-background-500 ">
-				<Link href="/">
+				<Link href="/" onClick={closeNav}>
 					<button className="nav-btn">Home</button>
 				</Link>
 				<div className="md:hidden">
@@ -77,13 +81,25 @@ const Navbar = () => {
 							isOpen ? "block" : "hidden"
 						} md:block`}
 					>
-						<Link href="/#work" className="nav-btn block md:inline-block">
+						<Link
+							href="/#work"
+							className="nav-btn block md:inline-block"
+							onClick={closeNav}
+						>
 							Work
 						</Link>
-						<Link href="/blogs" className="nav-btn block md:inline-block">
+						<Link
+							href="/blogs"
+							className="nav-btn block md:inline-block"
+							onClick={closeNav}
+						>
 							Blogs
 						</Link>
-						<Link href="/#contact" className="nav-btn block md:inline-block">
+						<Link
+							href="/#contact"
+							className="nav-btn block md:inline-block"
+							onClick={closeNav}
+						>
 							Get in touch!
 						</Link>
 					</div>
@@ -92,13 +108,13 @@ const Navbar = () => {
 			{isOpen && (
 				<div className="md:hidden">
 					<div className="flex flex-col items-center bg-background space-y-4 py-4">
-						<Link href="/#work" className="nav-btn">
+						<Link href="/#work" className="nav-btn" onClick={closeNav}>
 							Work
 						</Link>
-						<Link href="/blogs" className="nav-btn">
+						<Link href="/blogs" className="nav-btn" onClick={closeNav}>
 							Blogs
 						</Link>
-						<Link href="/#contact" className="nav-btn">
+						<Link href="/#contact" className="nav-btn" onClick={closeNav}>
 							Get in touch!
 						</Link>
 					</div>

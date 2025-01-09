@@ -29,13 +29,13 @@ export const workHistoryInfoList: Array<Work> = [
 		role: "Software Development Engineer",
 		time: "June 2022 - July 2024",
 		intro:
-			"I joined YellowAI after working for almost a year at Park+. I was part of the Platform-builder team who was responsible for building the core platform that powers the chatbots. My work revolved around building new features for easy creation and management of chatbots. This was my first experience of working with a multitude of microservices. PR reviews were a big part of my work and I learned a lot about writing clean code. I also spent a considerable amount of time on-call and learned how to quickly debug issues in a distributed system.",
+			"I joined YellowAI after working for almost a year at Park+. I was part of the Platform-builder team which was responsible for building the core platform that powers the chatbots. My work revolved around building new features for easy creation and management of chatbots. This was my first experience of working with a multitude of microservices. PR reviews were a big part of my work and I learned a lot about writing clean code. I also spent a considerable amount of time on-call which taught me how to quickly debug issues in a distributed system.",
 		description: [
 			"Implemented an authentication sequence in the bot platform to prompt identity verification for unrecognized users prior to proceeding.",
 			"Engineered a new node to create an inventory update pipeline for customer bot tables, enabling real-time product displays for end users and successfully tested with up to 200,000 products per bot.",
 			"Developed a testing module for bot validation, allowing users to input utterances and FAQs to verify correct bot flow activation, significantly decreasing bot testing time.",
 			"Refactored the event hub and implemented an event processing pipeline with RabbitMQ. Integrated visualization and alerts using Prometheus Query Language.",
-			"Added version history for the prompts in various nodes. Enhanced internal logging and provided bot developers with access through S3 with up to one-hour precision.",
+			"Added version history for the prompts in various nodes. Enhanced internal logging and provided bot developers with access through S3.",
 			"Resolved multiple bugs and optimized various nodes while on on-call duty.",
 		],
 		skills: [
@@ -74,7 +74,7 @@ export const workHistoryInfoList: Array<Work> = [
 		role: "Software Development Engineer Intern",
 		time: "May 2020 - Aug 2020",
 		intro:
-			"I joined Marktine as a Software Development Engineer Intern during my undergrad. This was my first internship and I learned a lot about web development, React, and Redux. I also learned about the importance of writing clean code and the importance of testing.",
+			"I joined Marktine as a Software Development Engineer Intern during my undergrad. This was my first internship and I learned a lot about web development, React, and Redux.",
 		description: [
 			"Worked on React Js and with the team, transformed a web-app into a fully fledged react-app.",
 			"Created core components and pages for the app.",

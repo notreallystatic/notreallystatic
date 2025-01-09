@@ -1,6 +1,10 @@
 import Image from "next/image";
 import profilePic from "../../public/images/picture.jpeg";
 
+const HighlightSection = (text: string) => {
+	return <span className="text-orange-600 italic">{text}</span>;
+};
+
 export default function About() {
 	return (
 		<div className="col-span-12">
@@ -29,18 +33,24 @@ export default function About() {
 						&nbsp;&nbsp;
 						<span className="text-3xl">🚀</span>&nbsp;I’m a developer on a
 						mission—whether it’s wrangling backend beasts, occasionally dabbling
-						in frontend sorcery, or speaking fluent MERN and Golang. With over 3
-						years of experience, I focus on building systems that are practical
-						and efficient. Databases? I enjoy fine-tuning them to keep things
-						running smoothly. And when it comes to solving problems, I approach
-						each challenge with curiosity and persistence.
+						in frontend sorcery, or speaking fluent {HighlightSection("MERN ")}
+						and {HighlightSection("Golang")}. With over{" "}
+						<span className="italic text-orange-600">
+							3 years of experience
+						</span>
+						, I focus on building systems that are practical and efficient.
+						Databases? I enjoy fine-tuning them to keep things running smoothly.
+						And when it comes to solving problems, I approach each challenge
+						with curiosity and persistence.
 					</p>
 					<p className="m-4 text-prettify">
 						&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						<span className="text-3xl">🧙‍♂️</span>&nbsp; Lately, I’ve been
-						tiptoeing into the mysterious land of Data Science. Am I a natural
-						fit, or will I retreat back to my backend kingdom? Only time (and a
-						lot of Python) will tell.
+						tiptoeing into the mysterious land of{" "}
+						{HighlightSection("Data Science")} at{" "}
+						{HighlightSection("University of Konstanz, Germany")}. Am I a
+						natural fit, or will I retreat back to my backend kingdom? Only time
+						(and a lot of Python) will tell.
 					</p>
 					<p className="m-2">
 						<span className="text-3xl">🌟</span>

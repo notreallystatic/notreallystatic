@@ -3,6 +3,9 @@ import createMDX from "@next/mdx";
 
 const nextConfig: NextConfig = {
 	pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
+	images: {
+		domains: ["images.unsplash.com"],
+	},
 	/* config options here */
 };
 
