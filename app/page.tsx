@@ -1,6 +1,5 @@
 import { WorkHistory } from "@/components/workHistory";
 import Contact from "@/components/contact";
-import Footer from "@/components/footer";
 import About from "@/components/about";
 
 export default function Home() {
@@ -33,7 +32,6 @@ export default function Home() {
 					</div>
 				</div> */}
 			</div>
-			<Footer />
 		</>
 	);
 }

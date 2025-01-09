@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "../src/components/navbar";
+import Footer from "@/components/footer";
 import Script from "next/script";
 import { Montserrat } from "next/font/google";
 
@@ -37,6 +38,7 @@ export default function RootLayout({
 				<main className={montserrat.className}>
 					<Navbar />
 					<div className="w-11/12 md:w-10/12 m-auto mt-20">{children}</div>
+					<Footer />
 				</main>
 			</body>
 		</html>
