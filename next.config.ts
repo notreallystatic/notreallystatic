@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
 	images: {
 		domains: ["images.unsplash.com"],
 	},
-	basePath: isProd ? "/prtfolio" : "",
+	basePath: isProd ? "/portfolio" : "",
 	assetPrefix: isProd ? "/portfolio/" : "",
 	output: "export",
 	reactStrictMode: true,
