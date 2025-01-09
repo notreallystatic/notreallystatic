@@ -28,6 +28,8 @@ export const workHistoryInfoList: Array<Work> = [
 		url: "https://yellow.ai",
 		role: "Software Development Engineer",
 		time: "June 2022 - July 2024",
+		intro:
+			"I joined YellowAI after working for almost a year at Park+. I was part of the Platform-builder team who was responsible for building the core platform that powers the chatbots. My work revolved around building new features for easy creation and management of chatbots. This was my first experience of working with a multitude of microservices. PR reviews were a big part of my work and I learned a lot about writing clean code. I also spent a considerable amount of time on-call and learned how to quickly debug issues in a distributed system.",
 		description: [
 			"Implemented an authentication sequence in the bot platform to prompt identity verification for unrecognized users prior to proceeding.",
 			"Engineered a new node to create an inventory update pipeline for customer bot tables, enabling real-time product displays for end users and successfully tested with up to 200,000 products per bot.",
@@ -56,6 +58,8 @@ export const workHistoryInfoList: Array<Work> = [
 		url: "https://parkplus.io",
 		role: "Software Development Engineer",
 		time: "Sept 2021 - June 2022",
+		intro:
+			"Right after my graduation, I joined Park+. I was tasked with migrating the existing Django-based Parking Management System to Golang. I learnt how to get onboarded quickly with a new stack and how much it matters to write clean code. Also, how the initial choices of using a particular library can affect the project in the long run.",
 		description: [
 			"Refactored a Django-based Parking Management System to Golang, overseeing the full development lifecycle and maintaining sole codebase ownership.",
 			"Enhanced vehicle ingress/egress efficiency via RFID and Fastag integration, achieving sub-1-second processing.",
@@ -69,9 +73,11 @@ export const workHistoryInfoList: Array<Work> = [
 		url: "https://marktine.com",
 		role: "Software Development Engineer Intern",
 		time: "May 2020 - Aug 2020",
+		intro:
+			"I joined Marktine as a Software Development Engineer Intern during my undergrad. This was my first internship and I learned a lot about web development, React, and Redux. I also learned about the importance of writing clean code and the importance of testing.",
 		description: [
 			"Worked on React Js and with the team, transformed a web-app into a fully fledged react-app.",
-			"Create core components and pages for the app.",
+			"Created core components and pages for the app.",
 		],
 		skills: ["javascript", "html", "css", "react", "redux"],
 	},

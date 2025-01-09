@@ -3,6 +3,7 @@ export type Work = {
 	url: string;
 	role: string;
 	time: string;
+	intro: string;
 	description: string[];
 	skills: string[];
 };

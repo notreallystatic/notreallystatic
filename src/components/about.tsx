@@ -45,10 +45,10 @@ export default function About() {
 					<p className="m-2">
 						<span className="text-3xl">🌟</span>
 						&nbsp;When I’m not buried in code, you might spot me running like
-						I’m late for a meeting, identifying birds with more enthusiasm than
-						an ornithologist, or disappearing into a book so good it makes me
-						forget to deploy. Let’s connect and create something so incredible
-						even our future selves would high-five us for it!
+						I’m late for a meeting, watching birds and marveling at their
+						quirks, or disappearing into a book so good it makes me forget to
+						deploy. Let’s connect and create something so incredible even our
+						future selves would high-five us for it!
 					</p>
 				</div>
 			</div>

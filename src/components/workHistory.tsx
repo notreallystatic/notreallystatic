@@ -20,7 +20,11 @@ export function WorkHistory() {
 					>
 						<p>
 							<span className="text-left w-full md:w-2/4 inline-block text-3xl">
-								<a href={jobObject.url} className="text-4xl font-bold">
+								<a
+									href={jobObject.url}
+									className="text-4xl font-bold"
+									target="_blank"
+								>
 									{jobObject.company}
 								</a>
 								<span className="w-1/2 bg-foreground-800 h-[2px] block"></span>
@@ -36,6 +40,7 @@ export function WorkHistory() {
 								{jobObject.role}
 							</span>
 						</p>
+						<p className="my-1 text-pretty">{jobObject.intro}</p>
 						<ul className="list-disc p-3">
 							{jobObject.description.map((desc, index) => (
 								<li key={index}>{desc}</li>
