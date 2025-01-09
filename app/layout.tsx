@@ -35,9 +35,11 @@ export default function RootLayout({
 				/>
 			</head>
 			<body>
-				<main className={montserrat.className}>
+				<main className={montserrat.className + " min-h-screen flex flex-col"}>
 					<Navbar />
-					<div className="w-11/12 md:w-10/12 m-auto mt-20">{children}</div>
+					<div className="w-11/12 md:w-10/12 m-auto mt-20 flex-grow">
+						{children}
+					</div>
 					<Footer />
 				</main>
 			</body>
