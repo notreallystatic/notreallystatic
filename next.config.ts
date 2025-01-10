@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
 	pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
 	images: {
 		domains: ["images.unsplash.com"],
+		unoptimized: true,
 	},
 	basePath: isProd ? "/portfolio" : "",
 	assetPrefix: isProd ? "/portfolio/" : "",
