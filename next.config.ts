@@ -14,6 +14,9 @@ const nextConfig: NextConfig = {
 	trailingSlash: true,
 	output: "export",
 	reactStrictMode: true,
+	publicRuntimeConfig: {
+		basePath: isProd ? "/portfolio" : "",
+	},
 };
 
 const withMDX = createMDX({
