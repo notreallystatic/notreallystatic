@@ -3,7 +3,9 @@ import getConfig from "next/config";
 const { publicRuntimeConfig } = getConfig();
 
 export default function OperatingSystem() {
-	const basePath = publicRuntimeConfig.basePath;
+	const basePath = publicRuntimeConfig.basePath
+		? publicRuntimeConfig.basePath
+		: "";
 
 	const rawHtmlContent = `<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Operating System</title><style>
 /* cspell:disable-file */
